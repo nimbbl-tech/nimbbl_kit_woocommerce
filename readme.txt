@@ -3,7 +3,7 @@ Contributors:nimbblplugin
 Donate link: 
 Tags: ecommerce payment gateway, payment gateway, nimbbl, payments, woocommerce payment gateway, Requires at least: 5.6 
 Tested up to: 6.2.2
-Stable tag: 4.0.0
+Stable tag: 4.0.2
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -130,6 +130,13 @@ https://profiles.wordpress.org/nimbblplugin/
 7. Success message 
 
 == Changelog ==
+
+= 4.0.2 =
+* Bug fixes
+
+= 4.0.1 =
+* Bug fixes
+
 = 4.0.0 =
 * Bug fixes
 * Redirect flow
@@ -148,4 +155,4 @@ Here's a link to [Nimbbl for WooCommerce ](https://wordpress.org/woo-nimbbl "Nim
 `<?php code(); // goes in backticks ?>`
 
 == Fixation ==
-1. Webhooks will not update once our WooCommerce order status is processing.
+1. Added signature verification for callback
